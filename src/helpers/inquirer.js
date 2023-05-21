@@ -13,7 +13,7 @@ const menuOpts = [
         choices: [
             {
                 value: 1,
-                name: `${colors.green('1')}. Bogo Sorte`
+                name: `${colors.green('1')}. Bogo Sort`
             },
             {
                 value: 2,

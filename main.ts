@@ -1,5 +1,6 @@
 import dotenv from 'dotenv';
 import { inquirerMenu, pausa } from './helpers/inquirer.js';
+import { bogoSort } from './helpers/Bogosort.js';
 
 dotenv.config();
 
@@ -14,7 +15,7 @@ const main = async()=>{
         switch (opt){
 
             case 1:
-                console.log("caso Bogo Sort");
+                bogoSort();
                 break;
             case 2:
                 console.log("caso Divide and conquer");
